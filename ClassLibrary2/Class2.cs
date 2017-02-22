@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ClassLibrary1
+namespace ClassLibrary2
 {
-    public class Class1
+    public class Class2
     {
-        public static string Quote => "Hello from .NET 4.5";
+        public static string Quote => "Hello from .NET Standard 1.6";
 
         public static void Say()
         {

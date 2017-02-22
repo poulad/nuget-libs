@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Poulad.Testy.Lib1</id>
+    <version>$version$</version>
+    <title>TestyLib1</title>
+    <authors>Poulad</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Testy library 1</description>
+    <releaseNotes>Testy release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>poulad testy lib library</tags>
+  </metadata>
+</package>
