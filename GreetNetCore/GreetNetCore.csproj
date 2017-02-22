@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Poulad.GreetingLibrary" Version="1.1.2" />
+    <PackageReference Include="Poulad.GreetingLibrary" Version="1.1.4" />
   </ItemGroup>
 
 </Project>

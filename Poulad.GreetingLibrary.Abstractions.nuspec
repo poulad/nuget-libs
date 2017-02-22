@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Poulad.GreetingLibrary.Abstractions</id>
+    <version>1.0.1</version>
+    <authors>Poulad</authors>
+    <owners>Poulad</owners>
+    <title>GreetingLibrary.Abstractions</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A nice greeting utitlity. This package only defines API interfaces.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>poulad greeting library</tags>
+  </metadata>
+
+  <files>
+      <file src="Testy.Greeting.Abstractions\bin\Release\netstandard1.0\Testy.Greeting.Abstractions.dll" target="lib\Testy.Greeting.Abstractions.dll" />
+      <file src="Testy.Greeting.Abstractions\bin\Release\netstandard1.0\Testy.Greeting.Abstractions.xml" target="lib\Testy.Greeting.Abstractions.xml" />
+  </files>
+
+</package>

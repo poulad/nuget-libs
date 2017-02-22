@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Poulad.GreetingLibrary</id>
-    <version>1.1.2</version>
+    <version>1.1.4</version>
     <authors>Poulad</authors>
     <owners>Poulad</owners>
     <title>GreetingLibrary</title>
@@ -11,16 +11,17 @@
     <releaseNotes>First release</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>poulad greeting library</tags>
+    <dependencies>
+      <dependency id="Poulad.GreetingLibrary.Abstractions" version="1.0.1" />
+    </dependencies>
   </metadata>
 
   <files>
-      <!-- Cross-platform reference assemblies -->
-      <file src="Testy.Greeting.Abstractions\bin\Release\netstandard1.0\Testy.Greeting.Abstractions.dll" target="lib\netstandard1.3\Testy.Greeting.Abstractions.dll" />
-      <file src="Testy.Greeting.Abstractions\bin\Release\netstandard1.0\Testy.Greeting.Abstractions.xml" target="lib\netstandard1.3\Testy.Greeting.Abstractions.xml" />
+      <!-- Cross-platform reference assembly -->
       <file src="Testy.Greeting\bin\Release\netstandard1.3\Testy.Greeting.dll" target="lib\netstandard1.3\Testy.Greeting.dll" />
       <file src="Testy.Greeting\bin\Release\netstandard1.3\Testy.Greeting.xml" target="lib\netstandard1.3\Testy.Greeting.xml" />
 
-      <!-- Full .NET framework specific -->
+      <!-- Full .NET framework specific assembly -->
       <file src="Testy.Greeting.Windows\bin\Release\Testy.Greeting.Windows.dll" target="lib\net45\Testy.Greeting.Windows.dll" />
       <file src="Testy.Greeting.Windows\bin\Release\Testy.Greeting.Windows.xml" target="lib\net45\Testy.Greeting.Windows.xml" />
   </files>
