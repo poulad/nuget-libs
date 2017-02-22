@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Poulad.GreetingLibrary</id>
-    <version>1.0.0</version>
+    <version>1.1.2</version>
     <authors>Poulad</authors>
     <owners>Poulad</owners>
     <title>GreetingLibrary</title>
@@ -15,9 +15,8 @@
 
   <files>
       <!-- Cross-platform reference assemblies -->
-      <file src="Testy.Greeting.Abstractions\bin\Release\netstandard1.0\Testy.Greeting.Abstractions.dll" target="lib\netstandard1.0\Testy.Greeting.Abstractions.dll" />
-      <file src="Testy.Greeting.Abstractions\bin\Release\netstandard1.0\Testy.Greeting.Abstractions.xml" target="lib\netstandard1.0\Testy.Greeting.Abstractions.xml" />
-
+      <file src="Testy.Greeting.Abstractions\bin\Release\netstandard1.0\Testy.Greeting.Abstractions.dll" target="lib\netstandard1.3\Testy.Greeting.Abstractions.dll" />
+      <file src="Testy.Greeting.Abstractions\bin\Release\netstandard1.0\Testy.Greeting.Abstractions.xml" target="lib\netstandard1.3\Testy.Greeting.Abstractions.xml" />
       <file src="Testy.Greeting\bin\Release\netstandard1.3\Testy.Greeting.dll" target="lib\netstandard1.3\Testy.Greeting.dll" />
       <file src="Testy.Greeting\bin\Release\netstandard1.3\Testy.Greeting.xml" target="lib\netstandard1.3\Testy.Greeting.xml" />
 
